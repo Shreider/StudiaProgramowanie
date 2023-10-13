@@ -1,4 +1,4 @@
-const checkArgT = (par: number | string | null) => {
+/*const checkArgT = (par: number | string | null) => {
     if(typeof par === 'number') {
         console.log(`par type: ${typeof par}`)
     }
@@ -9,4 +9,11 @@ const checkArgT = (par: number | string | null) => {
 
 checkArgT('hw')
 checkArgT(2)
-checkArgT(null)
+checkArgT(null)*/
+
+
+function addNum(num1, num2) {
+    return num1 + num2
+}
+
+console.log(addNum(1, 6))
