@@ -1,9 +1,9 @@
 var checkArgT = function (par) {
-    if (typeof par === 'string') {
-        console.log('par type: string');
+    if (typeof par === 'number') {
+        console.log("par type: ".concat(typeof par));
     }
-    else if (typeof par === 'number') {
-        console.log('par type: number');
+    else {
+        console.log("par type: ".concat(typeof par, " (other)"));
     }
 };
 checkArgT('hw');

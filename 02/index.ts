@@ -1,9 +1,6 @@
-const checkArgT = (par: number | string) => {
-    if(typeof par === 'string') {
-        console.log('par type: string')
-    }
-    else if(typeof par === 'number') {
-        console.log('par type: number')
+const checkArgT = (par: number | string | null) => {
+    if(typeof par === 'number') {
+        console.log(`par type: ${typeof par}`)
     }
     else {
         console.log(`par type: ${typeof par} (other)`)
@@ -11,3 +8,5 @@ const checkArgT = (par: number | string) => {
 }
 
 checkArgT('hw')
+checkArgT(2)
+checkArgT(null)
