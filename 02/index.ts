@@ -11,7 +11,7 @@ checkArgT('hw')
 checkArgT(2)
 checkArgT(null)*/
 
-const addNum = (num1:number, num2:number) => {
+const addNum = (num1:number, num2:number): number => {
     return num1 + num2
 }
 console.log(addNum(2, 10))
