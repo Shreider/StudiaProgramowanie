@@ -13,4 +13,8 @@ checkArgT(null)*/
 function addNum(num1, num2) {
     return num1 + num2;
 }
-console.log(addNum(-1, 2));
+var addNum2 = function (num1, num2) {
+    return num1 + num2;
+};
+console.log(addNum(1, 6));
+console.log(addNum2(1, 6));
